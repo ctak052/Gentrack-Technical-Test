@@ -25,18 +25,20 @@ what would be done with more time:
 I would have done this using TypeScript.
 I would have liked to incorporate my testing function with the rest of the code instead of having a seperate "verifyCSVData"
 I was going to make my own XML Parser so I could get specific elements and their attributes/children, something similar to below class.
-class element {
-    constructor(name) {
-        this.name = name
-        this.attributes = []
-        this.children = []
-    }
+    
+    
+    class element {
+        constructor(name) {
+            this.name = name
+            this.attributes = []
+            this.children = []
+        }
 
-    get attributes() {
-        return this.attributes
-    }
+        get attributes() {
+            return this.attributes
+        }
 
-    get children(){
-        return this.children
+        get children(){
+            return this.children
+        }
     }
-}
